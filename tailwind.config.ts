@@ -14,6 +14,16 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    fontSize: {
+      sm: ['0.75rem', '1rem'],
+    },
+    gridTemplateColumns: {
+      // Simple 16 column grid
+      '16': '1fr 2fr 3fr',
+
+      // Complex site-specific column configuration footer': '200px minmax(900px, 1fr) 100px',
+
+    },
   },
   plugins: [],
 };
