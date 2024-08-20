@@ -13,7 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        lime: {
+          "500": "#00a000"
+        },
+        red: {
+          "600": "#fe3a00"
+        },
+        yellow: {
+          "500": "#ffb900"
+        }
+
+      },
     },
+
     fontSize: {
       sm: ['0.75rem', '1rem'],
     },

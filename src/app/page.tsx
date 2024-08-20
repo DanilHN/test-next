@@ -2,8 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="grid min-h-screen grid-cols-16 ">
-      <div className="flex flex-col gap-x-1 container mx-auto">
+    <main className="grid min-h-screen grid-cols-16 bg-lime-500">
+      <div className="absolute left-[0.7vw] w-3/4 inline-flex justify-center top-[7vh]">
+        <h2 className="text-[9vh] text-white font-bold">Vítejte na stránkách<br />Hronovského jablíčka</h2>
+      </div>
+      <div className="flex flex-col  container mx-auto">
         <div className="">
           <Image
             src="/jablicko-logo.png"
@@ -16,34 +19,30 @@ export default function Home() {
         </div>
         <div className="flex justify-between ">
           <ul className="">
-            <a className="" href="#"><li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">PROPOZICE</li></a>
-
-            <li className="bg-red-600 rounded-lg text-center text-sm   m-2 p-2  w-8/12 hover:w-9/12">PŘIHLÁŠENÍ</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">HARMONOGRAM</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">POROTA</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">VÝSLEDKY</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">FOTOGALERIE</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">HISTORIE</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm  m-2 p-2  w-8/12 hover:w-9/12">KE STAŽENÍ</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">KONTAKTY</li>
-            <li className="bg-red-600 rounded-lg text-center text-sm m-2 p-2  w-8/12 hover:w-9/12">IMPORT HARMONOGRAMU</li>
+            <a className="" href="#"><li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">PROPOZICE</li></a>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">PŘIHLÁŠENÍ</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">HARMONOGRAM</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">POROTA</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">VÝSLEDKY</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">FOTOGALERIE</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">HISTORIE</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">KE STAŽENÍ</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">KONTAKTY</li>
+            <li className="bg-red-600 rounded-r-full text-center text-sm mx-0 my-2 p-2  w-10/12 hover:w-full">IMPORT HARMONOGRAMU</li>
           </ul>
         </div>
       </div>
-      <div className="h-full text-white ">
-
-        <h2 className="text-[6vh] ml-5 mt-10">Vítejte na stránkách<br />Hronovského jablíčka</h2>
-
-
+      <div className="text-white mt-[30vh]">
         <a href="#">
           <h3 className="m text-[4vh] ml-5 mt-6 mb-20"><u>Novinky na rok 2024</u></h3>
         </a>
         <h4>September 16-18, 2025<br />Paragon One Plaza and Sky Garden
         </h4>
-        <div className="mt-28 ">
-          <h3 className="mb-5">Odkaz na záznam soutěže:</h3>
-          <a className="" href="#">
-            <h3 className="text-black text-center inline-block bg-red-600 rounded pr-4 pt-4 pb-4">
+
+        <h3 className="mb-5 mt-20">Odkaz na záznam soutěže:</h3>
+        <div className="mt-5 mr-10 rounded-full bg-yellow-500">
+          <a className="items-center" href="#">
+            <h3 className="text-black text-center  rounded pr-4 pt-4 pb-4 ">
               <u>HTTPS://WWW.YOUTUBE.COM/LIVE/UMRJOZRBHGW</u>
             </h3>
           </a>
