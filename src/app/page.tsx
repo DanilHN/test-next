@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="grid min-h-screen grid-cols-16 bg-lime-500">
-      <div className="absolute left-[0.7vw] w-3/4 inline-flex justify-center top-[7vh]">
-        <h2 className="text-[9vh] text-white font-bold">Vítejte na stránkách<br />Hronovského jablíčka</h2>
+      <div className="absolute inline-block justify-center left-[15%] top-[2%]">
+        <h2 className=" text-[4em] justify-center text-white font-bold">Vítejte na stránkách<br />Hronovského jablíčka</h2>
       </div>
-      <div className="flex flex-col  container mx-auto">
+      <div className="flex flex-col">
         <div className="">
           <Image
             src="/jablicko-logo.png"
@@ -34,19 +34,17 @@ export default function Home() {
       </div>
       <div className="text-white mt-[30vh]">
         <a href="#">
-          <h3 className="m text-[4vh] ml-5 mt-6 mb-20"><u>Novinky na rok 2024</u></h3>
+          <h3 className=" text-[4vh] ml-5 mt-6 mb-20"><u>Novinky na rok 2024</u></h3>
         </a>
         <h4>September 16-18, 2025<br />Paragon One Plaza and Sky Garden
         </h4>
-
         <h3 className="mb-5 mt-20">Odkaz na záznam soutěže:</h3>
-        <div className="mt-5 mr-10 rounded-full bg-yellow-500">
-          <a className="items-center" href="#">
-            <h3 className="text-black text-center  rounded pr-4 pt-4 pb-4 ">
+        <div className=" rounded-full inline-block bg-yellow-500">
+          <a className="items-left" href="#">
+            <h3 className="text-black text-center px-5 py-2 font-bold text-sm ">
               <u>HTTPS://WWW.YOUTUBE.COM/LIVE/UMRJOZRBHGW</u>
             </h3>
           </a>
-
         </div>
       </div>
       <div className="">

@@ -32,7 +32,7 @@ const config: Config = {
     },
     gridTemplateColumns: {
       // Simple 16 column grid
-      '16': '1fr 2fr 3fr',
+      '16': '1fr 3fr 3fr',
 
       // Complex site-specific column configuration footer': '200px minmax(900px, 1fr) 100px',
 
